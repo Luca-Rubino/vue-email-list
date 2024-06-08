@@ -3,13 +3,13 @@ console.log('vue-email-list')
 const { createApp } = Vue
 
 createApp({
-  data() {
-    return {
-      message: 'Hello Vue!'
-    }
-  }
+    data(){
+        return{
+            emailList: [''],
+            generata: false
+        };
+    },
 }).mount('#app')
-
 
 
 
