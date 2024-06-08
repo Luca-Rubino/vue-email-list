@@ -22,7 +22,11 @@ createApp({
                 i++
             };
         }
-    }
+    },
+    // Uso Options: Lifecycle created per generare le email solo dopo che sono state create
+    created() {
+        this.getData();
+    },
 }).mount('#app')
 
 
